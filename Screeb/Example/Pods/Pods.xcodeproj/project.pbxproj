@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		101DF668B5208216A9F770AC42B02256 /* Pods-Screeb_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A23381DECBB66DB490DD5C49F18AA311 /* Pods-Screeb_Tests-dummy.m */; };
+		2768996A1CCA3AEDF1E715AE4D95F988 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		50F75DF259E2AA364F5CB46FBAD24E7D /* Pods-Screeb_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7F3FCA361A799C9E3BB546B99C60B3 /* Pods-Screeb_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D356DFF2715E2DF53A1E6EA3D35DF2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5E0BA3B82044E3A58693B44D34E3A46B /* Pods-Screeb_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12534D1627896BD0345D15F9591EED3D /* Pods-Screeb_Example-dummy.m */; };
+		7168248D8AEFFE159FF6AB871DF07B39 /* Screeb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF195BCA35F837CB9FCEDABE3DA163 /* Screeb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		724E835F7376EDFFBA384B39E3A71C90 /* Pods-Screeb_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 680920679899BB6347A4C50D214697F7 /* Pods-Screeb_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E36DAEDBF292BF5254CDBB106BB41716 /* Screeb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1456C1D8BF0FB84CB5FBB49B3AF7170 /* Screeb-dummy.m */; };
+		EFEDCC87202B165322B1CDD36B29DCF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61836CEE1BD687521BADF81869BF414A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B602F9EB3A04237D6D3FAFB4C87491CF;
+			remoteInfo = "Pods-Screeb_Example";
+		};
+		BE708D1213975A1C5A9E0959C5076B66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1566914B51DF5E4845E4A7FDB5015110;
+			remoteInfo = Screeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		076195A81D855E861A5862A22682D5F4 /* Pods-Screeb_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Screeb_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A478830235110952E430DC0B067F5C1 /* Screeb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Screeb.debug.xcconfig; sourceTree = "<group>"; };
+		123BF53D439AA0B9B04B3CAF45E570A3 /* Pods-Screeb_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Screeb_Example-frameworks.sh"; sourceTree = "<group>"; };
+		12534D1627896BD0345D15F9591EED3D /* Pods-Screeb_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Screeb_Example-dummy.m"; sourceTree = "<group>"; };
+		16FFA03429206CA8AF613C683EE1997C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2E00AD484175171F0903E1C66EF37FC4 /* Screeb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Screeb.release.xcconfig; sourceTree = "<group>"; };
+		32DC69104F5C555B4CD5B611E0A7EC30 /* Screeb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Screeb-prefix.pch"; sourceTree = "<group>"; };
+		3584B2C3C2F44891510FE9F2D397A022 /* Pods-Screeb_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Screeb_Example-Info.plist"; sourceTree = "<group>"; };
+		3D5BEC1EBBD6DF99FAA0174B877B1CFD /* Pods-Screeb_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Screeb_Tests"; path = Pods_Screeb_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4046CD06C8D5890AC4D480923F365726 /* Pods-Screeb_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Screeb_Tests.modulemap"; sourceTree = "<group>"; };
+		4CEE8FE5E9CDADD7B7D297F598BB5C70 /* Pods-Screeb_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Screeb_Tests-Info.plist"; sourceTree = "<group>"; };
+		599A21D1C2BAFE976DC95CA792418EA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D6DA137520EBA00F88903E29F0A2351 /* Pods-Screeb_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Screeb_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		680920679899BB6347A4C50D214697F7 /* Pods-Screeb_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Screeb_Tests-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7ACF195BCA35F837CB9FCEDABE3DA163 /* Screeb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Screeb-umbrella.h"; sourceTree = "<group>"; };
+		8B5BBE36A437465F9019BC8748383DB0 /* Pods-Screeb_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Screeb_Example.release.xcconfig"; sourceTree = "<group>"; };
+		94F6326AA1B3B9CA004673E0DD326A3D /* Screeb.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Screeb.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9871E0474DE00FF95AB25260F07FE02B /* Screeb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Screeb.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A23381DECBB66DB490DD5C49F18AA311 /* Pods-Screeb_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Screeb_Tests-dummy.m"; sourceTree = "<group>"; };
+		AD211FC386525D3C1168B7BEA4DDEC99 /* Pods-Screeb_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Screeb_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE3BB1EFB1FE8A5F202E7636984951B2 /* Pods-Screeb_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Screeb_Example"; path = Pods_Screeb_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1865EFDE77C0A87F32902A4B72A3693 /* Screeb */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Screeb; path = Screeb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0267264CF9E3AD082FD9F9F9FAAF79D /* Pods-Screeb_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Screeb_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C39E5C8B390BCADD115C113569E2C02F /* Pods-Screeb_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Screeb_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C488B7AF9FAB8AFD32AFD14EF8D3352F /* Pods-Screeb_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Screeb_Example.modulemap"; sourceTree = "<group>"; };
+		CB7F3FCA361A799C9E3BB546B99C60B3 /* Pods-Screeb_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Screeb_Example-umbrella.h"; sourceTree = "<group>"; };
+		DEDC8D7782BA13866F9BF49CB8343CF8 /* Pods-Screeb_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Screeb_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6B054139B27CC966EB1AA12B558541A /* Pods-Screeb_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Screeb_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1456C1D8BF0FB84CB5FBB49B3AF7170 /* Screeb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Screeb-dummy.m"; sourceTree = "<group>"; };
+		FF4693FD1586E2AE7C5570516E5C52D9 /* Screeb-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Screeb-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		585AC8344A01E842C2842FC21CED92AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEDCC87202B165322B1CDD36B29DCF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C8261107408010D9F088284BEBD39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2768996A1CCA3AEDF1E715AE4D95F988 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F7C06F3FB6A465B11B078E95D23A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D356DFF2715E2DF53A1E6EA3D35DF2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0170C6E7D4447E3465F2E5F6767BB064 /* Pods-Screeb_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C488B7AF9FAB8AFD32AFD14EF8D3352F /* Pods-Screeb_Example.modulemap */,
+				AD211FC386525D3C1168B7BEA4DDEC99 /* Pods-Screeb_Example-acknowledgements.markdown */,
+				DEDC8D7782BA13866F9BF49CB8343CF8 /* Pods-Screeb_Example-acknowledgements.plist */,
+				12534D1627896BD0345D15F9591EED3D /* Pods-Screeb_Example-dummy.m */,
+				123BF53D439AA0B9B04B3CAF45E570A3 /* Pods-Screeb_Example-frameworks.sh */,
+				3584B2C3C2F44891510FE9F2D397A022 /* Pods-Screeb_Example-Info.plist */,
+				CB7F3FCA361A799C9E3BB546B99C60B3 /* Pods-Screeb_Example-umbrella.h */,
+				C0267264CF9E3AD082FD9F9F9FAAF79D /* Pods-Screeb_Example.debug.xcconfig */,
+				8B5BBE36A437465F9019BC8748383DB0 /* Pods-Screeb_Example.release.xcconfig */,
+			);
+			name = "Pods-Screeb_Example";
+			path = "Target Support Files/Pods-Screeb_Example";
+			sourceTree = "<group>";
+		};
+		2178A4FFC51A030C5418D70F47642D0F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				16FFA03429206CA8AF613C683EE1997C /* LICENSE */,
+				599A21D1C2BAFE976DC95CA792418EA8 /* README.md */,
+				94F6326AA1B3B9CA004673E0DD326A3D /* Screeb.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2549A9A1698D528C6944C1DA3BC15D81 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				803355AF8966BCAF18E88B2B05462F40 /* Screeb */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		737318E7D7A796DD8E59BAEA44553779 /* Pods-Screeb_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4046CD06C8D5890AC4D480923F365726 /* Pods-Screeb_Tests.modulemap */,
+				5D6DA137520EBA00F88903E29F0A2351 /* Pods-Screeb_Tests-acknowledgements.markdown */,
+				E6B054139B27CC966EB1AA12B558541A /* Pods-Screeb_Tests-acknowledgements.plist */,
+				A23381DECBB66DB490DD5C49F18AA311 /* Pods-Screeb_Tests-dummy.m */,
+				4CEE8FE5E9CDADD7B7D297F598BB5C70 /* Pods-Screeb_Tests-Info.plist */,
+				680920679899BB6347A4C50D214697F7 /* Pods-Screeb_Tests-umbrella.h */,
+				076195A81D855E861A5862A22682D5F4 /* Pods-Screeb_Tests.debug.xcconfig */,
+				C39E5C8B390BCADD115C113569E2C02F /* Pods-Screeb_Tests.release.xcconfig */,
+			);
+			name = "Pods-Screeb_Tests";
+			path = "Target Support Files/Pods-Screeb_Tests";
+			sourceTree = "<group>";
+		};
+		803355AF8966BCAF18E88B2B05462F40 /* Screeb */ = {
+			isa = PBXGroup;
+			children = (
+				2178A4FFC51A030C5418D70F47642D0F /* Pod */,
+				C7AE2BCAED6AB36363AEBA4EB04D7F0C /* Support Files */,
+			);
+			name = Screeb;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C57AB28C27D87D95A492F97C56E3B9D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE3BB1EFB1FE8A5F202E7636984951B2 /* Pods-Screeb_Example */,
+				3D5BEC1EBBD6DF99FAA0174B877B1CFD /* Pods-Screeb_Tests */,
+				B1865EFDE77C0A87F32902A4B72A3693 /* Screeb */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7AE2BCAED6AB36363AEBA4EB04D7F0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9871E0474DE00FF95AB25260F07FE02B /* Screeb.modulemap */,
+				F1456C1D8BF0FB84CB5FBB49B3AF7170 /* Screeb-dummy.m */,
+				FF4693FD1586E2AE7C5570516E5C52D9 /* Screeb-Info.plist */,
+				32DC69104F5C555B4CD5B611E0A7EC30 /* Screeb-prefix.pch */,
+				7ACF195BCA35F837CB9FCEDABE3DA163 /* Screeb-umbrella.h */,
+				0A478830235110952E430DC0B067F5C1 /* Screeb.debug.xcconfig */,
+				2E00AD484175171F0903E1C66EF37FC4 /* Screeb.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Screeb";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2549A9A1698D528C6944C1DA3BC15D81 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C57AB28C27D87D95A492F97C56E3B9D3 /* Products */,
+				F34CEE3A406E73D6A0A69B81EF95A879 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F34CEE3A406E73D6A0A69B81EF95A879 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0170C6E7D4447E3465F2E5F6767BB064 /* Pods-Screeb_Example */,
+				737318E7D7A796DD8E59BAEA44553779 /* Pods-Screeb_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D52A9BC66A171DA8CD31A365ACDD57A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7168248D8AEFFE159FF6AB871DF07B39 /* Screeb-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5156B101B9041246A75F7BCE46EC00F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724E835F7376EDFFBA384B39E3A71C90 /* Pods-Screeb_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB407DE3E9FDD8DE1F59A83416A1DEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F75DF259E2AA364F5CB46FBAD24E7D /* Pods-Screeb_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1566914B51DF5E4845E4A7FDB5015110 /* Screeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EAC19CC5FBF008CA307712A5465677 /* Build configuration list for PBXNativeTarget "Screeb" */;
+			buildPhases = (
+				2D52A9BC66A171DA8CD31A365ACDD57A /* Headers */,
+				701D700A452D06349C379A84D35DFDB3 /* Sources */,
+				585AC8344A01E842C2842FC21CED92AC /* Frameworks */,
+				E7423A922778D0407CD60DEC0B9DE585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Screeb;
+			productName = Screeb;
+			productReference = B1865EFDE77C0A87F32902A4B72A3693 /* Screeb */;
+			productType = "com.apple.product-type.framework";
+		};
+		B602F9EB3A04237D6D3FAFB4C87491CF /* Pods-Screeb_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F5664598F9EC37BB5B0CEFC4BAB232 /* Build configuration list for PBXNativeTarget "Pods-Screeb_Example" */;
+			buildPhases = (
+				ADB407DE3E9FDD8DE1F59A83416A1DEF /* Headers */,
+				18EBB756C50A361F552399D401A58838 /* Sources */,
+				CD6C8261107408010D9F088284BEBD39 /* Frameworks */,
+				3B6213BB6B23E2435093EACF79818CA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AAB31E85B3F63A72C2E90AC5C6142D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Screeb_Example";
+			productName = Pods_Screeb_Example;
+			productReference = AE3BB1EFB1FE8A5F202E7636984951B2 /* Pods-Screeb_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4C07EF568700E978F5DDC502CF28842 /* Pods-Screeb_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C52871F38A132B97C951FBB97A1657F /* Build configuration list for PBXNativeTarget "Pods-Screeb_Tests" */;
+			buildPhases = (
+				5156B101B9041246A75F7BCE46EC00F0 /* Headers */,
+				4152A9287D17BD6DB0FF685B9F5EC130 /* Sources */,
+				D3F7C06F3FB6A465B11B078E95D23A60 /* Frameworks */,
+				EDB36A168DB61C128F7FC310CA373BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CF733FA45DFA1196605108DE3CD2359 /* PBXTargetDependency */,
+			);
+			name = "Pods-Screeb_Tests";
+			productName = Pods_Screeb_Tests;
+			productReference = 3D5BEC1EBBD6DF99FAA0174B877B1CFD /* Pods-Screeb_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C57AB28C27D87D95A492F97C56E3B9D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B602F9EB3A04237D6D3FAFB4C87491CF /* Pods-Screeb_Example */,
+				E4C07EF568700E978F5DDC502CF28842 /* Pods-Screeb_Tests */,
+				1566914B51DF5E4845E4A7FDB5015110 /* Screeb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B6213BB6B23E2435093EACF79818CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7423A922778D0407CD60DEC0B9DE585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB36A168DB61C128F7FC310CA373BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EBB756C50A361F552399D401A58838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0BA3B82044E3A58693B44D34E3A46B /* Pods-Screeb_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4152A9287D17BD6DB0FF685B9F5EC130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101DF668B5208216A9F770AC42B02256 /* Pods-Screeb_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701D700A452D06349C379A84D35DFDB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36DAEDBF292BF5254CDBB106BB41716 /* Screeb-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CF733FA45DFA1196605108DE3CD2359 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Screeb_Example";
+			target = B602F9EB3A04237D6D3FAFB4C87491CF /* Pods-Screeb_Example */;
+			targetProxy = 61836CEE1BD687521BADF81869BF414A /* PBXContainerItemProxy */;
+		};
+		2AAB31E85B3F63A72C2E90AC5C6142D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Screeb;
+			target = 1566914B51DF5E4845E4A7FDB5015110 /* Screeb */;
+			targetProxy = BE708D1213975A1C5A9E0959C5076B66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CD7AE035409EEAECF52EAD51461A709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0267264CF9E3AD082FD9F9F9FAAF79D /* Pods-Screeb_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Screeb_Example/Pods-Screeb_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Screeb_Example/Pods-Screeb_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2AFC8DA363EC01D8208A3EC1AFCF6CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5BBE36A437465F9019BC8748383DB0 /* Pods-Screeb_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Screeb_Example/Pods-Screeb_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Screeb_Example/Pods-Screeb_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3201B1BDCA8978BF6AC5A5AA3B66453B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39E5C8B390BCADD115C113569E2C02F /* Pods-Screeb_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Screeb_Tests/Pods-Screeb_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Screeb_Tests/Pods-Screeb_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		441899C434B15F33B682330013BC3922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A478830235110952E430DC0B067F5C1 /* Screeb.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Screeb/Screeb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Screeb/Screeb-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Screeb/Screeb.modulemap";
+				PRODUCT_MODULE_NAME = Screeb;
+				PRODUCT_NAME = Screeb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1AC9A4B776E3A37F4D8FBCA68B700C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076195A81D855E861A5862A22682D5F4 /* Pods-Screeb_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Screeb_Tests/Pods-Screeb_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Screeb_Tests/Pods-Screeb_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DA6EC31A764AED701B21FA8CC3F52A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E00AD484175171F0903E1C66EF37FC4 /* Screeb.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Screeb/Screeb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Screeb/Screeb-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Screeb/Screeb.modulemap";
+				PRODUCT_MODULE_NAME = Screeb;
+				PRODUCT_NAME = Screeb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C52871F38A132B97C951FBB97A1657F /* Build configuration list for PBXNativeTarget "Pods-Screeb_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1AC9A4B776E3A37F4D8FBCA68B700C0 /* Debug */,
+				3201B1BDCA8978BF6AC5A5AA3B66453B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EAC19CC5FBF008CA307712A5465677 /* Build configuration list for PBXNativeTarget "Screeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441899C434B15F33B682330013BC3922 /* Debug */,
+				DA6EC31A764AED701B21FA8CC3F52A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F5664598F9EC37BB5B0CEFC4BAB232 /* Build configuration list for PBXNativeTarget "Pods-Screeb_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD7AE035409EEAECF52EAD51461A709 /* Debug */,
+				2AFC8DA363EC01D8208A3EC1AFCF6CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

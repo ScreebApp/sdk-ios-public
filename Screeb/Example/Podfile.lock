@@ -1,0 +1,16 @@
+PODS:
+  - Screeb (0.1.0)
+
+DEPENDENCIES:
+  - Screeb (from `../`)
+
+EXTERNAL SOURCES:
+  Screeb:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Screeb: 9598d1f3cd9be577f4850a9fec748297acd36b0e
+
+PODFILE CHECKSUM: f3037d19e8fd1e09abe01eb8e5973cde36bf12be
+
+COCOAPODS: 1.11.2
