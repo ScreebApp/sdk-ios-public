@@ -1,44 +1,29 @@
-__:warning:  iOS SDK has been released in beta. Please contact us here to request a demo.__
+# Screeb
 
-___
+[![CI Status](https://img.shields.io/travis/82387521/Screeb.svg?style=flat)](https://travis-ci.org/82387521/Screeb)
+[![Version](https://img.shields.io/cocoapods/v/Screeb.svg?style=flat)](https://cocoapods.org/pods/Screeb)
+[![License](https://img.shields.io/cocoapods/l/Screeb.svg?style=flat)](https://cocoapods.org/pods/Screeb)
+[![Platform](https://img.shields.io/cocoapods/p/Screeb.svg?style=flat)](https://cocoapods.org/pods/Screeb)
 
-## Screeb iOS SDK
+## Example
 
-This repository contains example projects that show how to integrate the Screeb iOS sdk in you app.
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-You'll find :
+## Requirements
 
-- Install examples for Carthage dependencies manager
-- Install examples for Cocoapods dependencies manager
-- For each example project, how to initialize Screeb in `AppDelegate.swift`
-- For each example project, how to call other Screeb's commands in `ViewController.swift`
+## Installation
 
-## How to install the iOS SDK in your app ?
+Screeb is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-### Carthage
-
-To install the sdk, you just need to add the following lines in your project Cartfile file :
-
-```
-github "ScreebApp/sdk-ios-public" "0.1.0"
+```ruby
+pod 'Screeb'
 ```
 
-## How to configure the iOS SDK
-[See here.](https://github.com/ScreebApp/developers/wiki/ios-SDK-install)
+## Author
 
-## Technical requirements
+82387521, clement@screeb.app
 
-The Screeb sdk is configured to work with iOS version 12 minimum
+## License
 
-The swift version is v 5.0
-
-The size of the sdk is approximately 500 Kb
-
-## Dependencies
-
-We try to update the dependencies very frequently, if you have a any problem, please create an issue in this repository.
-
-- 'Alamofire', '~> 5.4'
-- 'AlamofireNetworkActivityLogger', '~> 3.4'
-- 'Starscream', '~> 4.0.0'
-- 'Kingfisher', '~> 7.0'
+Screeb is available under the MIT license. See the LICENSE file for more info.
