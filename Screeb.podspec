@@ -17,18 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-Screeb is a feedback loop sdk
-                       DESC
-
-  s.homepage         = 'https://screeb.app’
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.homepage         = 'https://screeb.app'
+  s.license          = 'MIT'
   s.author           = { 'Clement Quaquin' => 'clement@screeb.app' }
-  s.source           = { :git => 'https://github.com/ScreebApp/sdk-ios-public/Screeb', :tag => s.version}
+  s.source           = { :git => 'https://github.com/ScreebApp/sdk-ios-public.git', :tag => s.version}
 
   s.platform          = :ios
   s.ios.deployment_target = '12.0'
-  s.vendored_framework = 'Screeb/Screeb.framework'
+  s.ios.vendored_frameworks = "Frameworks/Screeb.framework"
 
   s.dependency 'Alamofire', '~> 5.4'
   s.dependency 'AlamofireNetworkActivityLogger', '~> 3.4'
