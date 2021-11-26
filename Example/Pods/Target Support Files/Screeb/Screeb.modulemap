@@ -1,6 +1,0 @@
-framework module Screeb {
-  umbrella header "Screeb-umbrella.h"
-
-  export *
-  module * { export * }
-}
