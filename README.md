@@ -45,7 +45,7 @@ The Screeb sdk is configured to work with iOS version 12 minimum
 
 The swift version is v 5.0
 
-The size of the sdk is approximately 500 Kb
+The size of the sdk is approximately 3.28 Mb
 
 ## Dependencies
 
