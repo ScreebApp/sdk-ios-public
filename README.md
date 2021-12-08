@@ -24,7 +24,7 @@ You'll find :
 To install the sdk, you just need to add the following lines in your project Podfile file :
 
 ```
-pod "Screeb", "0.4.0"
+pod "Screeb", "0.6.0"
 ```
 
 
