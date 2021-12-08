@@ -33,7 +33,7 @@ pod "Screeb", "0.6.0"
 To install the sdk, you just need to add the following lines in your project Cartfile file :
 
 ```
-github "ScreebApp/sdk-ios-public" "0.4.0"
+github "ScreebApp/sdk-ios-public" "0.6.0"
 ```
 
 ## How to configure the iOS SDK
