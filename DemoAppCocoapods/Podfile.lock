@@ -2,8 +2,8 @@ PODS:
   - Alamofire (5.4.4)
   - AlamofireNetworkActivityLogger (3.4.0):
     - Alamofire (~> 5.4.0)
-  - Kingfisher (7.1.1)
-  - Screeb (0.3.0):
+  - Kingfisher (7.1.2)
+  - Screeb (0.6.0):
     - Alamofire (~> 5.4)
     - AlamofireNetworkActivityLogger (~> 3.4)
     - Kingfisher (~> 7.0)
@@ -11,7 +11,7 @@ PODS:
   - Starscream (4.0.4)
 
 DEPENDENCIES:
-  - Screeb (= 0.3.0)
+  - Screeb (= 0.6.0)
 
 SPEC REPOS:
   trunk:
@@ -24,10 +24,10 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   AlamofireNetworkActivityLogger: 162ab8aee00e6267a4304d7cc134e13ccfe3bcc5
-  Kingfisher: f738f9c4a3415823b8e2985d10aa2d6a9f37bc4d
-  Screeb: d667a39a8b49c87bfe7716f1a2727bff1f8ad416
+  Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
+  Screeb: 3efd7fb6f52cc2468f3c279b41694ef370c6c65f
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
 
-PODFILE CHECKSUM: 0b2fc55c67781a60028cc21d58614e5edcdd23fb
+PODFILE CHECKSUM: d81d2567aac475e26f9de88374011417d7dfc73b
 
 COCOAPODS: 1.11.2

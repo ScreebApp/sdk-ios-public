@@ -8,13 +8,12 @@
 import UIKit
 import Screeb
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        Screeb.initSdk(context: window?.rootViewController, channelId: "5c62c145-91f1-4abd-8aa2-63d7847db1e1")
         return true
     }
 

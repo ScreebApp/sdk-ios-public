@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		65B8E048D3B33F19869080A3 /* Pods_DemoAppCocoapods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBC29832F84CD0103647366 /* Pods_DemoAppCocoapods.framework */; };
+		EB412037275FB5670059648D /* screeb_presentation.png in Resources */ = {isa = PBXBuildFile; fileRef = EB412036275FB5660059648D /* screeb_presentation.png */; };
 		EB8E48A12751239A00BC443F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E48A02751239A00BC443F /* AppDelegate.swift */; };
 		EB8E48A32751239A00BC443F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E48A22751239A00BC443F /* SceneDelegate.swift */; };
 		EB8E48A52751239A00BC443F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E48A42751239A00BC443F /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 		4CBC29832F84CD0103647366 /* Pods_DemoAppCocoapods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAppCocoapods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52232973CADD8DD4E50C39E2 /* Pods-DemoAppCocoapods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppCocoapods.debug.xcconfig"; path = "Target Support Files/Pods-DemoAppCocoapods/Pods-DemoAppCocoapods.debug.xcconfig"; sourceTree = "<group>"; };
 		E53E48120E8DF27B10D931A0 /* Pods-DemoAppCocoapods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppCocoapods.release.xcconfig"; path = "Target Support Files/Pods-DemoAppCocoapods/Pods-DemoAppCocoapods.release.xcconfig"; sourceTree = "<group>"; };
+		EB412036275FB5660059648D /* screeb_presentation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screeb_presentation.png; sourceTree = "<group>"; };
 		EB8E489D2751239A00BC443F /* DemoAppCocoapods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAppCocoapods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8E48A02751239A00BC443F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB8E48A22751239A00BC443F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +58,6 @@
 				52232973CADD8DD4E50C39E2 /* Pods-DemoAppCocoapods.debug.xcconfig */,
 				E53E48120E8DF27B10D931A0 /* Pods-DemoAppCocoapods.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -86,6 +87,7 @@
 				EB8E48A42751239A00BC443F /* ViewController.swift */,
 				EB8E48A62751239A00BC443F /* Main.storyboard */,
 				EB8E48A92751239C00BC443F /* Assets.xcassets */,
+				EB412036275FB5660059648D /* screeb_presentation.png */,
 				EB8E48AB2751239C00BC443F /* LaunchScreen.storyboard */,
 				EB8E48AE2751239C00BC443F /* Info.plist */,
 			);
@@ -153,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB8E48AD2751239C00BC443F /* LaunchScreen.storyboard in Resources */,
+				EB412037275FB5670059648D /* screeb_presentation.png in Resources */,
 				EB8E48AA2751239C00BC443F /* Assets.xcassets in Resources */,
 				EB8E48A82751239A00BC443F /* Main.storyboard in Resources */,
 			);
@@ -362,6 +365,7 @@
 				DEVELOPMENT_TEAM = 2FFW64ZF9Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoAppCocoapods/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ScreebDemo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -372,7 +376,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.screeb.DemoAppCocoapods;
+				PRODUCT_BUNDLE_IDENTIFIER = app.screeb.ScreebDemoAppCocoapods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -391,6 +395,7 @@
 				DEVELOPMENT_TEAM = 2FFW64ZF9Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoAppCocoapods/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ScreebDemo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -401,7 +406,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.screeb.DemoAppCocoapods;
+				PRODUCT_BUNDLE_IDENTIFIER = app.screeb.ScreebDemoAppCocoapods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
