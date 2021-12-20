@@ -27,14 +27,19 @@ To install the sdk, you just need to add the following lines in your project Pod
 pod "Screeb", "0.7.0"
 ```
 
+At the end of the Podfile, add this code :
 
-### Carthage (Not available yet)
-
-To install the sdk, you just need to add the following lines in your project Cartfile file :
-
+```ruby
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+        end
+    end
+end
 ```
-github "ScreebApp/sdk-ios-public" "0.7.0"
-```
+
+> Screeb sdk supports module stability across Swift versions used by dependencies, so we need all dependencies to be built with the  BUILD_LIBRARY_FOR_DISTRIBUTION flag enabled
 
 ## How to configure the iOS SDK
 [See here.](https://github.com/ScreebApp/developers/wiki/ios-SDK-install)
