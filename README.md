@@ -57,6 +57,6 @@ The size of the sdk is approximately 3.28 Mb
 We try to update the dependencies very frequently, if you have a any problem, please create an issue in this repository.
 
 - 'Alamofire', '~> 5.4'
-- 'AlamofireNetworkActivityLogger', '~> 3.4'
 - 'Starscream', '~> 4.0.0'
 - 'Kingfisher', '~> 7.0'
+- 'KeyboardGuide', '~> 0.2.1'
