@@ -1,4 +1,3 @@
-__:warning:  iOS SDK has been released in beta. Please contact us here to request a demo.__
 
 [![Version](https://img.shields.io/cocoapods/v/Screeb.svg?style=flat)](https://cocoapods.org/pods/Screeb)
 [![License](https://img.shields.io/cocoapods/l/Screeb.svg?style=flat)](https://cocoapods.org/pods/Screeb)
