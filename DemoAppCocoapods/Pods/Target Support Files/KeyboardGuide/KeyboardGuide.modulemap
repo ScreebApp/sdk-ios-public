@@ -1,6 +1,0 @@
-framework module KeyboardGuide {
-  umbrella header "KeyboardGuide-umbrella.h"
-
-  export *
-  module * { export * }
-}
