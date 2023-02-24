@@ -25,13 +25,17 @@ public enum Localization {
 @_hasMissingDesignatedInitializers public class Screeb {
   public static let shared: Screeb
   public static func initSdk(context: UIKit.UIViewController?, channelId: Swift.String, identity: Swift.String? = nil, visitorProperty: [Swift.String : AnyEncodable?] = [:])
+  public static func closeSdk()
+  public static func setIdentity(uniqueVisitorId: Swift.String, visitorProperty: [Swift.String : AnyEncodable?] = [:])
+  public static func resetIdentity()
+  public static func visitorProperty(visitorProperty: [Swift.String : AnyEncodable?])
+  public static func assignGroup(type: Swift.String?, name: Swift.String, properties: [Swift.String : AnyEncodable?] = [:])
+  public static func unassignGroup(type: Swift.String?, name: Swift.String, properties: [Swift.String : AnyEncodable?] = [:])
   public static func trackEvent(name: Swift.String, trackingEventProperties: [Swift.String : AnyEncodable?] = [:])
   public static func trackScreen(name: Swift.String, trackingEventProperties: [Swift.String : AnyEncodable?] = [:])
-  public static func visitorProperty(visitorProperty: [Swift.String : AnyEncodable?])
   public static func startSurvey(surveyId: Swift.String, allowMultipleResponses: Swift.Bool = true, hiddenFields: [Swift.String : AnyEncodable] = [:])
-  public static func setIdentity(uniqueVisitorId: Swift.String, visitorProperty: [Swift.String : AnyEncodable?] = [:])
-  public static func assignGroup(type: Swift.String?, name: Swift.String, properties: [Swift.String : AnyEncodable] = [:])
-  public static func unassignGroup(type: Swift.String?, name: Swift.String)
+  public static func debug()
+  public static func debugTargeting()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class TargetService {

@@ -1,10 +1,10 @@
-platform :ios, '12.0'
+platform :ios, '12.4'
 use_frameworks!
 inhibit_all_warnings!
 
 target 'ExampleApp' do
   project 'ExampleApp'
-  pod "Screeb", "1.10.1"
+  pod "Screeb", "1.12.1"
 end
 
 post_install do |installer|
