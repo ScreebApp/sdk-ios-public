@@ -24,7 +24,7 @@ public enum Localization {
 }
 @_hasMissingDesignatedInitializers public class Screeb {
   public static let shared: Screeb
-  public static func initSdk(context: UIKit.UIViewController?, channelId: Swift.String, identity: Swift.String? = nil, visitorProperty: [Swift.String : AnyEncodable?] = [:])
+  public static func initSdk(context: UIKit.UIViewController?, channelId: Swift.String, identity: Swift.String? = nil, visitorProperty: [Swift.String : AnyEncodable?] = [:], initOptions: InitOptions = InitOptions())
   public static func closeSdk()
   public static func setIdentity(uniqueVisitorId: Swift.String, visitorProperty: [Swift.String : AnyEncodable?] = [:])
   public static func resetIdentity()
@@ -37,6 +37,9 @@ public enum Localization {
   public static func debug()
   public static func debugTargeting()
   @objc deinit
+}
+public struct InitOptions {
+  public init(automaticScreenDetection: Swift.Bool? = nil)
 }
 @_hasMissingDesignatedInitializers public class TargetService {
   @objc deinit
