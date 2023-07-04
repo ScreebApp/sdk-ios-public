@@ -1,32 +1,16 @@
 PODS:
-  - Alamofire (5.6.4)
-  - KeyboardGuide (0.2.1)
-  - Kingfisher (7.6.2)
-  - Screeb (1.12.3):
-    - Alamofire (~> 5.4)
-    - KeyboardGuide (~> 0.2.1)
-    - Kingfisher (~> 7.0)
-    - Starscream (~> 4.0.0)
-  - Starscream (4.0.4)
+  - Screeb (2.0.0-rc.1)
 
 DEPENDENCIES:
-  - Screeb (= 1.12.3)
+  - Screeb (= 2.0.0-rc.1)
 
 SPEC REPOS:
   trunk:
-    - Alamofire
-    - KeyboardGuide
-    - Kingfisher
     - Screeb
-    - Starscream
 
 SPEC CHECKSUMS:
-  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
-  KeyboardGuide: 1a30e6f6cac60f56ea94938bf9bc894bbc170be2
-  Kingfisher: 6c5449c6450c5239166510ba04afe374a98afc4f
-  Screeb: 2b8cef53db05efc7b144ef99e7c5fc5f8e952c39
-  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  Screeb: 47ea2d9622b1a5aa8d5ce23d63b229cae891cdc6
 
-PODFILE CHECKSUM: bff9c54a06489069f923cbbaca7b4dc9cdfb0c95
+PODFILE CHECKSUM: 96a17508a3583d0c8739ee8d6063218faaeef5bc
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1

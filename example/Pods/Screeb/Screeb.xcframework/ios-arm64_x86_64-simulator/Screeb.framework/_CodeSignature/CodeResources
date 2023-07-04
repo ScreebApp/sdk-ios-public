@@ -4,630 +4,132 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>AnswerTableViewCell.nib</key>
-		<data>
-		u+yY5Oi0FKQ4CGceajV3+Nr/teg=
-		</data>
-		<key>Base.lproj/Localization.strings</key>
-		<data>
-		FfSe1IET1v3VTLf6w5tVYKBzDiQ=
-		</data>
-		<key>CardQuestionViewCell.nib/objects-12.3+.nib</key>
-		<data>
-		rPltrR66m9W+t1MzEs7J8iF3z84=
-		</data>
-		<key>CardQuestionViewCell.nib/runtime.nib</key>
-		<data>
-		IMh3lbD4RnRilkdjKWkqyPxpbvM=
-		</data>
-		<key>CloseSurveyTableViewCell.nib</key>
-		<data>
-		YLS0Hc8LDo6S7tJTdwrlpTaRayY=
-		</data>
 		<key>Headers/Screeb-Swift.h</key>
 		<data>
-		jYRGKpLbXbBw6ruIP1V6WHwpqpo=
-		</data>
-		<key>Headers/Screeb-umbrella.h</key>
-		<data>
-		M6KdPgGjDk2uL+T4ZGYABUSZKhg=
+		jVeYW4FbIR6NrC5zFHi0MmPD/HA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		udJRbIxhzETInGee+xdtKw+td0Q=
+		LnIMzp2Md4ORI+MufT1Um2rBH/0=
 		</data>
-		<key>InputTableViewCell.nib</key>
+		<key>Modules/Screeb.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		wrJXiSflY4CRn7swYdzJejWIlJM=
+		cpR3tWB7dZwApf/AC50RDnNNVmE=
 		</data>
-		<key>MessageTableViewCell.nib</key>
+		<key>Modules/Screeb.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		wcGFFOpEn73ZuzfM7IjY5RyaZ8g=
+		2NJxRjBFI2auipQKOA0nr0zBCOQ=
 		</data>
 		<key>Modules/Screeb.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		yRzEQZmoAZ7beU15QAux+W9FmXY=
+		338zK2AKe4C6F1B8lOPGKQtVMUs=
 		</data>
 		<key>Modules/Screeb.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WRIf4NMnJ458ONY+tTGL85sifio=
+		2NJxRjBFI2auipQKOA0nr0zBCOQ=
 		</data>
 		<key>Modules/Screeb.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yNQdKImnB6DfEbralDU3wdGuP+0=
+		kM4K33g5MGcSCioxJTLnVfwyjaM=
 		</data>
-		<key>Modules/Screeb.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/Screeb.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		yRzEQZmoAZ7beU15QAux+W9FmXY=
+		cpR3tWB7dZwApf/AC50RDnNNVmE=
 		</data>
-		<key>Modules/Screeb.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/Screeb.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		WRIf4NMnJ458ONY+tTGL85sifio=
-		</data>
-		<key>Modules/Screeb.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		yNQdKImnB6DfEbralDU3wdGuP+0=
+		+8KrSvH8h2DwaKLSNH48BdxTSeU=
 		</data>
 		<key>Modules/Screeb.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Vh0hy+iaWHsffYQ5YV2jBwz/Cc8=
+		5bfyHp0yXZSK488ZdxPTsK4pF7c=
 		</data>
 		<key>Modules/Screeb.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qvj2NHUSbNrBBgbcKt/Ih0bmmq8=
+		+8KrSvH8h2DwaKLSNH48BdxTSeU=
 		</data>
 		<key>Modules/Screeb.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eg+sLRCmrvCy48cZghk9mEupfjk=
-		</data>
-		<key>Modules/Screeb.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		Vh0hy+iaWHsffYQ5YV2jBwz/Cc8=
-		</data>
-		<key>Modules/Screeb.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		qvj2NHUSbNrBBgbcKt/Ih0bmmq8=
-		</data>
-		<key>Modules/Screeb.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		eg+sLRCmrvCy48cZghk9mEupfjk=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		gG8ARbgQ+tweGfIqdqdc6WURoOo=
-		</data>
-		<key>QuestionViewCell.nib/objects-12.3+.nib</key>
-		<data>
-		PP7KviQZqQf0vPx/P+fxpF5zqMI=
-		</data>
-		<key>QuestionViewCell.nib/runtime.nib</key>
-		<data>
-		rC3VOgl59NWocsUwJvhHIU539u4=
-		</data>
-		<key>QuestionsTableViewCell.nib</key>
-		<data>
-		/l4yTZOM7GSUr4evZZqUl/Vn+40=
-		</data>
-		<key>ScoreTableViewCell.nib</key>
-		<data>
-		y8F6oP/n32GWtbR/8rJlynfgmgQ=
-		</data>
-		<key>ScoreViewCell.nib/objects-12.3+.nib</key>
-		<data>
-		ueybba6HatL5UaHHOB1934lUanU=
-		</data>
-		<key>ScoreViewCell.nib/runtime.nib</key>
-		<data>
-		dI2RcW4rij6+bIN/cy0hbV+IIFo=
-		</data>
-		<key>ScreebCardCloseViewController.nib</key>
-		<data>
-		2u4vidpLQvrVgXIrOp6FI97a2+g=
-		</data>
-		<key>ScreebCardInputViewController.nib</key>
-		<data>
-		IUJ12IQ2yQFStrhdcpkvQbucclc=
-		</data>
-		<key>ScreebCardMessageViewController.nib</key>
-		<data>
-		D7JjBmyGUYfRvaWov7GuN3VkVKs=
-		</data>
-		<key>ScreebCardQuestionsViewController.nib</key>
-		<data>
-		qxZW1kTitvrxpz9Brt17QijNQPc=
-		</data>
-		<key>ScreebCardScoreViewController.nib</key>
-		<data>
-		cWTl4TqeSThnAS1uDA3qED6f++Q=
-		</data>
-		<key>ScreebCardTileViewController.nib</key>
-		<data>
-		kt8m7HyhR01i5ZbOGkhEGkIQNDs=
-		</data>
-		<key>ScreebCardViewController.nib</key>
-		<data>
-		j7tsuYsR3zi42+y6SUhVkO67HsM=
-		</data>
-		<key>ScreebPoweredByView.nib</key>
-		<data>
-		yR1JI4Fc8w8DH3VQrLGzpMLC8C0=
-		</data>
-		<key>ScreebReduceViewController.nib</key>
-		<data>
-		MnYlYky2u3kDzAk9r3OW0fH4wpQ=
-		</data>
-		<key>ScreebViewController.nib</key>
-		<data>
-		FPTjrSFCa/5ZrQ06IeLg8Pao7DI=
-		</data>
-		<key>TrackingModel.momd/TrackingModel.mom</key>
-		<data>
-		W7B/NS1pCmIIj0/5dB3c/2CCkc0=
-		</data>
-		<key>TrackingModel.momd/VersionInfo.plist</key>
-		<data>
-		HfLWZrCAlhOl4T9kKX3p6/pm9hE=
-		</data>
-		<key>TypingTableViewCell.nib</key>
-		<data>
-		w9YeFTTy+cd4pNjbpqf4TcDnZpQ=
-		</data>
-		<key>en.lproj/Localization.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FfSe1IET1v3VTLf6w5tVYKBzDiQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/Localization.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XyhpCYEqd1fGJOAHhVN0bi1cEf8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>rubik_bold.ttf</key>
-		<data>
-		eFlXM6H3cUry71FolnDjqmHa8Pk=
-		</data>
-		<key>rubik_italic.ttf</key>
-		<data>
-		FUC/2n6nLvuMUonwROgiare5CyQ=
-		</data>
-		<key>rubik_regular.ttf</key>
-		<data>
-		YX1qYSDR5YSpISWYQh0DnLmy58k=
-		</data>
-		<key>screeb_arrow.png</key>
-		<data>
-		KtOwF35G3tTdd32tH/8dtGWPcJE=
-		</data>
-		<key>screeb_close.png</key>
-		<data>
-		fNS/kszhwaV0AmKCBNLCtNMo+kA=
-		</data>
-		<key>screeb_control_close.png</key>
-		<data>
-		jHhvB8Xe1IY9Z7e4JVqfMYUX8h8=
-		</data>
-		<key>screeb_control_reduce.png</key>
-		<data>
-		PvwiOBSPgAMKYQpqjlRiSbFm7V4=
-		</data>
-		<key>screeb_controls.png</key>
-		<data>
-		Dz/A1AXjcwfLi3T/im8WWp5/6v8=
-		</data>
-		<key>screeb_email.png</key>
-		<data>
-		1B3mOePJCn+1lKAX7EROTtAUBdU=
-		</data>
-		<key>screeb_powered_by.png</key>
-		<data>
-		+xcQn0jav0qm2yG851xCir5YIz0=
-		</data>
-		<key>send.png</key>
-		<data>
-		OJvJmw48Lqe+Uy5j07BWOGa7CLA=
-		</data>
-		<key>typing.gif</key>
-		<data>
-		fdMcxHFEuZk///YArAwvJguoF9Y=
+		g6+VXMEC0KEkH3XDWJ4GDxkxefg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>AnswerTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8kx7n8iTXE4DN2KQQSJtXh6wWF4LAwUYUMXMeJdkFG4=
-			</data>
-		</dict>
-		<key>Base.lproj/Localization.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/minWYppt3o2DZl0AYTuIEbO8iJcIcOyLFy49qjZLxI=
-			</data>
-		</dict>
-		<key>CardQuestionViewCell.nib/objects-12.3+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ejuBfLiSSYkgCD66Ih2RRDbXwR6C7/O/AeCYGCazxcQ=
-			</data>
-		</dict>
-		<key>CardQuestionViewCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RzIkZDSoT3sOvxykucwcxqLYo7g83eH65lc9iuaxhFk=
-			</data>
-		</dict>
-		<key>CloseSurveyTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aje3yDSV+IY5b3VoftIIA+sXWQ7EZMVxCsU2U2NKlSQ=
-			</data>
-		</dict>
 		<key>Headers/Screeb-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bhfX5W2T9dK2EgbB5rSpbWdU7eA6ZIAcmwzQkhOz24I=
+			CmcM14p96n4f0PhKEgTF5u8yr+XaeeI/u+8FpMl0Uwk=
 			</data>
 		</dict>
-		<key>Headers/Screeb-umbrella.h</key>
+		<key>Modules/Screeb.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LB+oHrrEfxlV265oJmoWQXakDl9u7zOr1fJac9aRYqk=
+			LUKZYosWVjsXWquijZ+pEdHLEtf6zqCdt43WCxf7Vs0=
 			</data>
 		</dict>
-		<key>InputTableViewCell.nib</key>
+		<key>Modules/Screeb.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3xd0axpCkb5spJBbmR6QX2XM4t1RmmHUpoJkbnjKdzI=
-			</data>
-		</dict>
-		<key>MessageTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wieLvOt34obAhENy7TGIZKOvrssMZ+VL4fKplKYcsTs=
+			ElwiqaDrRKBlcewUnzcMOHt2KdQQ9Svjfoi7x/FbIlg=
 			</data>
 		</dict>
 		<key>Modules/Screeb.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ue2HslnWBD9FodsPqxZ84SXBuLee+Zqw+VepF8hvwrs=
+			4VoFJ08CpY9HqglWmayLnYLBGum9LxNZF2JnYYP3cvU=
 			</data>
 		</dict>
 		<key>Modules/Screeb.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ix3gPl+43v1sbAKAdsAlDfcD1LOB36504kA8KWG/pXw=
+			ElwiqaDrRKBlcewUnzcMOHt2KdQQ9Svjfoi7x/FbIlg=
 			</data>
 		</dict>
 		<key>Modules/Screeb.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ESTnaK2lCOLttRtxp10fLHTiUR5+VO2b8ikgdzo5jZE=
+			S2uDKvo+yd2UJ8IHvC/WvrJgdizlwPkCxZvebqeSkvI=
 			</data>
 		</dict>
-		<key>Modules/Screeb.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/Screeb.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ue2HslnWBD9FodsPqxZ84SXBuLee+Zqw+VepF8hvwrs=
+			LUKZYosWVjsXWquijZ+pEdHLEtf6zqCdt43WCxf7Vs0=
 			</data>
 		</dict>
-		<key>Modules/Screeb.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/Screeb.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ix3gPl+43v1sbAKAdsAlDfcD1LOB36504kA8KWG/pXw=
-			</data>
-		</dict>
-		<key>Modules/Screeb.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ESTnaK2lCOLttRtxp10fLHTiUR5+VO2b8ikgdzo5jZE=
+			sRoC8YyVspeVbPxHJz0NBIhIdkDT470hDn1JccO3LT8=
 			</data>
 		</dict>
 		<key>Modules/Screeb.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UwFfHFruKb9HXU3hx+xSEct7tdDufEt5XqJHPdZuQkA=
+			PWJzHnOpXYb4yWiEOqt6z6iE5NXbPmsG/U4bgx+BAO0=
 			</data>
 		</dict>
 		<key>Modules/Screeb.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8ROz25dg5StljHwXErIcXhLHYNw/w6iG5+YsHHUrO8Y=
+			sRoC8YyVspeVbPxHJz0NBIhIdkDT470hDn1JccO3LT8=
 			</data>
 		</dict>
 		<key>Modules/Screeb.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ms2NECxCVkyuAWBkVwP3f1PWlWRpQS2yVfxEynT+cTQ=
-			</data>
-		</dict>
-		<key>Modules/Screeb.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UwFfHFruKb9HXU3hx+xSEct7tdDufEt5XqJHPdZuQkA=
-			</data>
-		</dict>
-		<key>Modules/Screeb.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8ROz25dg5StljHwXErIcXhLHYNw/w6iG5+YsHHUrO8Y=
-			</data>
-		</dict>
-		<key>Modules/Screeb.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ms2NECxCVkyuAWBkVwP3f1PWlWRpQS2yVfxEynT+cTQ=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			E7gz0ses37Jx0kZ3HjWsUzalwOdgtpAO6hKpjY2Cn0c=
-			</data>
-		</dict>
-		<key>QuestionViewCell.nib/objects-12.3+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YpjcsSUsS2gLb5vWT/0PoxwgwXqZhTupw0fiHLDehZs=
-			</data>
-		</dict>
-		<key>QuestionViewCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			17mwaiwqgeUHntz3IK2m1kfcMoX9cNu2wqyoGPuTJmg=
-			</data>
-		</dict>
-		<key>QuestionsTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			A677zwhxQiFBws0QKAIsguvJXh+49Ak7ALV2nxB4iuM=
-			</data>
-		</dict>
-		<key>ScoreTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			o5OW41goksR+vP4s6biS0tJElAJREB3xXN/GEAKeXKY=
-			</data>
-		</dict>
-		<key>ScoreViewCell.nib/objects-12.3+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9m/46BQ1EqGXU+fLq34ldoF5C3ZQkOq8ciROdYYt/NQ=
-			</data>
-		</dict>
-		<key>ScoreViewCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0rOb4QJHmgfQawMlPR1E+9JFbGJ+LMi3t8vELmbDEOk=
-			</data>
-		</dict>
-		<key>ScreebCardCloseViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			spyHsfDNCPdqP4DY11Pz9ahkrlSDa2GEcCx1t6fFvBY=
-			</data>
-		</dict>
-		<key>ScreebCardInputViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pK84vw9VJK4g5Cu11MVisavV4Q2LQEbWcZDUu4ZGHE8=
-			</data>
-		</dict>
-		<key>ScreebCardMessageViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gU1CS1iv9zKRKVjk6h1IyBdRMk1ahqTIIruttMeMgzY=
-			</data>
-		</dict>
-		<key>ScreebCardQuestionsViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Bl2sg5+TpjPzqaCYZR2EixNauQZWbQZTzcj7iR1QBxs=
-			</data>
-		</dict>
-		<key>ScreebCardScoreViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RapW+IEaCtGAYT+VZpL96zAjCG9BywwlDNnljyOwhbc=
-			</data>
-		</dict>
-		<key>ScreebCardTileViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			u5zjcfkOnyrnard84nr3XtnpASWRYhGud2quGSKC5+Q=
-			</data>
-		</dict>
-		<key>ScreebCardViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cPPd8ICQI7dU9he8k4bSqkB4/AgGuBfACsnqWqIaNRM=
-			</data>
-		</dict>
-		<key>ScreebPoweredByView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VZlTo5Q+NJKxggQe+P9Rus11/F2L7WtGS4JVfQ6SrnY=
-			</data>
-		</dict>
-		<key>ScreebReduceViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+4i26vcPODTXjS9BRQmgow1rO3htofmB0WJYQqnZ2qo=
-			</data>
-		</dict>
-		<key>ScreebViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ogNdTS0rUzbAXd/E/actCiumeCB/EaT1XbrrVRvP9x8=
-			</data>
-		</dict>
-		<key>TrackingModel.momd/TrackingModel.mom</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			g2RE2fx0yW2EyKV4QYbtLIMb7D7NyH4HWRJsBpRHF2U=
-			</data>
-		</dict>
-		<key>TrackingModel.momd/VersionInfo.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			plquhX8p/IFz8l5EVBQQQZyKOjq5yc++LVwbo2vwXMU=
-			</data>
-		</dict>
-		<key>TypingTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7FVTeAYO8JzQjcwkQRG0vq0h/g+TwW3DNrswz50kXDg=
-			</data>
-		</dict>
-		<key>en.lproj/Localization.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/minWYppt3o2DZl0AYTuIEbO8iJcIcOyLFy49qjZLxI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/Localization.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3nIbK+9ashPG2i1ETE2CQrFiDEV838YDq1WsW3tXmcw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>rubik_bold.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			do889DoxxAMKhjQ8Zsxb7VFDrhS9ixZ9Ego/qjVh/jY=
-			</data>
-		</dict>
-		<key>rubik_italic.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WIwnL/n/5WR088pG/+hwdu3WIuIjypArtPqzSeJ6Fx0=
-			</data>
-		</dict>
-		<key>rubik_regular.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uD7WiENqnPsrJOEfqKDWqI9+RYJMmByBVZfuG70L2go=
-			</data>
-		</dict>
-		<key>screeb_arrow.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			W0OfmQ4lGj961Lr4cTKcmyXocwzGM5hCTguOBKYcOkk=
-			</data>
-		</dict>
-		<key>screeb_close.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8nHDbgEpmWrh2KGvBtQD8ekBqhuT9DTa4bPbBHfE75s=
-			</data>
-		</dict>
-		<key>screeb_control_close.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BJVPJVAXGR75QNT3lQ810i7D/84Hn0c3E3sFXwUc+j4=
-			</data>
-		</dict>
-		<key>screeb_control_reduce.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lrkkTAcuCcIDZ6XMVmJ8xf9NNnQcXmejPNh0m1N7/TU=
-			</data>
-		</dict>
-		<key>screeb_controls.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YmbKEh1gT6YJ98U2GTbhK0yxMYZh4zi+dRh3WNY2RPQ=
-			</data>
-		</dict>
-		<key>screeb_email.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ttz72XAontsVuugyog09x97IZAvZrNAXktV+bssqLaM=
-			</data>
-		</dict>
-		<key>screeb_powered_by.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xk7H/FzkFW6dNH2fyfKQQtoj1ofZiZbeMfAgJtNcXU0=
-			</data>
-		</dict>
-		<key>send.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EWjBCWYW3LkCXdBYQ3CrX9tjULTknt8esjFkTejYlK4=
-			</data>
-		</dict>
-		<key>typing.gif</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VMs9lJQWTnZRD3UZLWWXTQKviw12izZJTTrQy1vAvJs=
+			MIM/iYbplBUC5BEFfsjMAWZITtvJfZhV5sv2wK3o+qw=
 			</data>
 		</dict>
 	</dict>
