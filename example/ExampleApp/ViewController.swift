@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  ExampleApp
-//
-//  Created by Quaquin Clément on 26/11/2021.
-//
-
 import UIKit
 import Screeb
 
