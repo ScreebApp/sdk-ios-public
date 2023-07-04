@@ -213,7 +213,7 @@
           {
             "kind": "Function",
             "name": "setIdentity",
-            "printedName": "setIdentity(uniqueVisitorId:visitorProperties:)",
+            "printedName": "setIdentity(uniqueVisitorId:visitorProperty:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -257,8 +257,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6ScreebAAC11setIdentity15uniqueVisitorId17visitorPropertiesySS_SDySSAA12AnyEncodableVSgGtFZ",
-            "mangledName": "$s6ScreebAAC11setIdentity15uniqueVisitorId17visitorPropertiesySS_SDySSAA12AnyEncodableVSgGtFZ",
+            "usr": "s:6ScreebAAC11setIdentity15uniqueVisitorId15visitorPropertyySS_SDySSAA12AnyEncodableVSgGtFZ",
+            "mangledName": "$s6ScreebAAC11setIdentity15uniqueVisitorId15visitorPropertyySS_SDySSAA12AnyEncodableVSgGtFZ",
             "moduleName": "Screeb",
             "static": true,
             "declAttributes": [
@@ -292,7 +292,7 @@
           {
             "kind": "Function",
             "name": "visitorProperty",
-            "printedName": "visitorProperty(visitorProperties:)",
+            "printedName": "visitorProperty(visitorProperty:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -329,8 +329,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6ScreebAAC15visitorProperty0B10PropertiesySDySSAA12AnyEncodableVSgG_tFZ",
-            "mangledName": "$s6ScreebAAC15visitorProperty0B10PropertiesySDySSAA12AnyEncodableVSgG_tFZ",
+            "usr": "s:6ScreebAAC15visitorPropertyACySDySSAA12AnyEncodableVSgG_tFZ",
+            "mangledName": "$s6ScreebAAC15visitorPropertyACySDySSAA12AnyEncodableVSgG_tFZ",
             "moduleName": "Screeb",
             "static": true,
             "declAttributes": [
@@ -1348,301 +1348,301 @@
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "Dictionary",
-      "offset": 2978,
+      "offset": 2976,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 3096,
+      "offset": 3092,
       "length": 75,
       "value": "\"'identity', '\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 3128,
+      "offset": 3124,
       "length": 44,
       "value": "\"', \""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 3170,
+      "offset": 3166,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 3246,
+      "offset": 3242,
       "length": 18,
       "value": "\"'identity.reset'\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 3539,
+      "offset": 3529,
       "length": 64,
       "value": "\"'identity.properties', \""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 3602,
+      "offset": 3592,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "Dictionary",
-      "offset": 3714,
+      "offset": 3704,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 3836,
+      "offset": 3826,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 3845,
+      "offset": 3835,
       "length": 12,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 3855,
+      "offset": 3845,
       "length": 2,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 3883,
+      "offset": 3873,
       "length": 89,
       "value": "\"'identity.group.assign', \""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 3919,
+      "offset": 3909,
       "length": 1,
       "value": "\", '\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 3929,
+      "offset": 3919,
       "length": 44,
       "value": "\"', \""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 3971,
+      "offset": 3961,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "Dictionary",
-      "offset": 4085,
+      "offset": 4075,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 4207,
+      "offset": 4197,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 4216,
+      "offset": 4206,
       "length": 12,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 4226,
+      "offset": 4216,
       "length": 2,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 4254,
+      "offset": 4244,
       "length": 91,
       "value": "\"'identity.group.unassign', \""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 4292,
+      "offset": 4282,
       "length": 1,
       "value": "\", '\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 4302,
+      "offset": 4292,
       "length": 44,
       "value": "\"', \""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 4344,
+      "offset": 4334,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "Dictionary",
-      "offset": 4453,
+      "offset": 4443,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 4577,
+      "offset": 4567,
       "length": 67,
       "value": "\"'event.track', '\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 4601,
+      "offset": 4591,
       "length": 44,
       "value": "\"', \""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 4643,
+      "offset": 4633,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "Dictionary",
-      "offset": 4753,
+      "offset": 4743,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 5079,
+      "offset": 5069,
       "length": 68,
       "value": "\"'event.screen', '\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 5104,
+      "offset": 5094,
       "length": 44,
       "value": "\"', \""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 5146,
+      "offset": 5136,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "BooleanLiteral",
-      "offset": 5257,
+      "offset": 5247,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "Dictionary",
-      "offset": 5311,
+      "offset": 5301,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "BooleanLiteral",
-      "offset": 5351,
+      "offset": 5341,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "Dictionary",
-      "offset": 5413,
+      "offset": 5403,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 5440,
+      "offset": 5430,
       "length": 26,
       "value": "\"allow_multiple_responses\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 5530,
+      "offset": 5520,
       "length": 15,
       "value": "\"hidden_fields\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 5599,
+      "offset": 5589,
       "length": 22,
       "value": "\"ignore_survey_status\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 5770,
+      "offset": 5760,
       "length": 72,
       "value": "\"'survey.start', '\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 5799,
+      "offset": 5789,
       "length": 44,
       "value": "\"', \""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 5841,
+      "offset": 5831,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 5909,
+      "offset": 5899,
       "length": 9,
       "value": "\"'debug'\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/Screeb\/sdk-ios\/Sources\/Screeb\/Classes\/Screeb.swift",
       "kind": "StringLiteral",
-      "offset": 5994,
+      "offset": 5984,
       "length": 19,
       "value": "\"'targeting.debug'\""
     },

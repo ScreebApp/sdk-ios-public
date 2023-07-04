@@ -1,16 +1,16 @@
 PODS:
-  - Screeb (2.0.0-rc.2)
+  - Screeb (2.0.0-rc.3)
 
 DEPENDENCIES:
-  - Screeb (= 2.0.0-rc.2)
+  - Screeb (= 2.0.0-rc.3)
 
 SPEC REPOS:
   trunk:
     - Screeb
 
 SPEC CHECKSUMS:
-  Screeb: ce49ebe8619a3af62dcc27b1866c570a62c38d52
+  Screeb: ddcbe411fdd58605916b2312c97b4432b335b328
 
-PODFILE CHECKSUM: 70b05e745662c53c072df7403f959c24a0b777fb
+PODFILE CHECKSUM: aaa09f48fe858ba0fb27296befe8df49cdec7029
 
 COCOAPODS: 1.12.1

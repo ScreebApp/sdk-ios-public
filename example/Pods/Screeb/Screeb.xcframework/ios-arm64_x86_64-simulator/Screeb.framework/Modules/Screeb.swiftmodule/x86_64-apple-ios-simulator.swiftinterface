@@ -15,9 +15,9 @@ import os
   public static let shared: Screeb
   public static func initSdk(context: UIKit.UIViewController?, channelId: Swift.String, identity: Swift.String? = nil, visitorProperty: [Swift.String : AnyEncodable?] = [:], initOptions: InitOptions = InitOptions())
   public static func closeSdk()
-  public static func setIdentity(uniqueVisitorId: Swift.String, visitorProperties: [Swift.String : AnyEncodable?] = [:])
+  public static func setIdentity(uniqueVisitorId: Swift.String, visitorProperty: [Swift.String : AnyEncodable?] = [:])
   public static func resetIdentity()
-  public static func visitorProperty(visitorProperties: [Swift.String : AnyEncodable?])
+  public static func visitorProperty(visitorProperty: [Swift.String : AnyEncodable?])
   public static func assignGroup(type: Swift.String?, name: Swift.String, properties: [Swift.String : AnyEncodable?] = [:])
   public static func unassignGroup(type: Swift.String?, name: Swift.String, properties: [Swift.String : AnyEncodable?] = [:])
   public static func trackEvent(name: Swift.String, trackingEventProperties: [Swift.String : AnyEncodable?] = [:])
