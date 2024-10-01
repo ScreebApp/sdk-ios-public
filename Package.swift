@@ -25,8 +25,8 @@ let package = Package(
                path: "Sources/BinaryFramework"),
         .binaryTarget(
             name: "Screeb",
-            url: "https://github.com/ScreebApp/sdk-ios-public/releases/download/2.1.6/Screeb.zip",
-            checksum: "4e4d77aa79a00209e31d767739592426fc1abad80220ff7168c75aa24aacae93"
+            url: "https://github.com/ScreebApp/sdk-ios-public/releases/download/2.1.7/Screeb.zip",
+            checksum: "e0aa7ab8297ee42cfa5d8ac228f35b50a8d46a6b404c5dd92603eb8bcfde01b8"
         )
     ]
 )
