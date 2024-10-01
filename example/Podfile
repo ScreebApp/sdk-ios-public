@@ -4,7 +4,7 @@ inhibit_all_warnings!
 
 target 'ExampleApp' do
   project 'ExampleApp'
-  pod "Screeb", "2.0.10"
+  pod "Screeb", "2.1.7"
 end
 
 post_install do |installer|
