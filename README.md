@@ -1,14 +1,27 @@
+# Screeb iOS SDK
 
 [![Version](https://img.shields.io/cocoapods/v/Screeb.svg?style=flat)](https://cocoapods.org/pods/Screeb)
-[![License](https://img.shields.io/cocoapods/l/Screeb.svg?style=flat)](https://cocoapods.org/pods/Screeb)
 [![Platform](https://img.shields.io/cocoapods/p/Screeb.svg?style=flat)](https://cocoapods.org/pods/Screeb)
 
-___
+## Installation
 
-## Screeb iOS SDK
+### Swift Package Manager
 
-This repository contains a sample project that shows how to integrate the Screeb iOS SDK in you app.
+Add the following to your `Package.swift`:
 
-## How to install the iOS SDK in your app ?
+```swift
+.package(url: "https://github.com/ScreebApp/sdk-ios-public", .upToNextMajor(from: "3.1.1"))
+```
 
-[See here.](https://github.com/ScreebApp/developers/wiki/ios-SDK-install)
+Or in Xcode: **File > Add Packages** and enter `https://github.com/ScreebApp/sdk-ios-public`.
+
+### CocoaPods
+
+```ruby
+pod "Screeb", "3.1.1"
+```
+
+## Documentation
+
+- [Installation & setup](https://developers.screeb.app/sdk-ios/install)
+- [Changelog](https://www.notion.so/screeb/iOS-SDK-4ad6756875a14f2eb60711b86150a29d)
