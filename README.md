@@ -3,6 +3,8 @@
 [![Version](https://img.shields.io/cocoapods/v/Screeb.svg?style=flat)](https://cocoapods.org/pods/Screeb)
 [![Platform](https://img.shields.io/cocoapods/p/Screeb.svg?style=flat)](https://cocoapods.org/pods/Screeb)
 
+> This repository is used solely for distributing the Screeb iOS SDK via Swift Package Manager and CocoaPods. It does not contain source code.
+
 ## Installation
 
 ### Swift Package Manager
